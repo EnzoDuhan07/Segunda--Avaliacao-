@@ -1,0 +1,20 @@
+A Integer classe encapsula um valor
+do tipo int primitivo em um objeto,
+um objeto do tipo Integer contém um
+único campo cujo tipo é int .
+
+o Double é comumente usado em situações
+que exigem um grande intervalo de valores
+ou um alto grau de precisão.
+
+A classe Character possui vários métodos
+que auxiliam no processamento de caracteres
+de uma string em aplicações Java.
+
+o Boolean é um tipo de dado que pode ter
+apenas dois valores: verdadeiro (true) 
+ou falso (false).
+
+e o Strings em Java são imutáveis, o que
+significa que seu valor não pode ser
+alterado após a criação.
