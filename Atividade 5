@@ -1,0 +1,25 @@
+questão 1 :
+public class Desconto {
+
+    public static void main(String[] args) {
+        boolean produtoComDesconto = true; // Exemplo: Produto com desconto
+        boolean cupomValido = false; // Exemplo: Cliente sem cupom válido
+
+        boolean podeAplicarDesconto = produtoComDesconto || cupomValido;
+
+        System.out.println("Desconto aplicado: " + podeAplicarDesconto);
+    }
+}
+
+questão 2 :
+public class AutorizacaoCompra {
+
+    public static void main(String[] args) {
+        boolean saldoSuficiente = true;
+        boolean contaVerificada = false;
+
+        boolean compraAutorizada = saldoSuficiente && contaVerificada;
+
+        System.out.println("Compra autorizada: " + compraAutorizada);
+    }
+}
