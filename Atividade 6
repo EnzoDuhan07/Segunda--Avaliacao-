@@ -1,0 +1,93 @@
+questão 1 :
+import java.util.Scanner;
+
+public class MediaAritmetica {
+
+   public static void main(String[] args) {
+
+       Scanner entrada = new Scanner(System.in);
+
+       System.out.print("Digite a nota da 1ª avaliação: ");
+
+       double nota1 = entrada.nextDouble();
+
+       System.out.print("Digite a nota da 2ª avaliação: ");
+
+       double nota2 = entrada.nextDouble();
+
+       double media = (nota1 + nota2) / 2;
+
+       System.out.printf("Média: %.2f\n", media);
+
+       if (media >= 6) {
+
+           System.out.println("Aluno aprovado!");
+
+       } else {
+
+           System.out.println("Aluno reprovado!");
+
+       }
+
+       entrada.close();
+
+   }
+
+}
+
+questão 2 :
+import java.util.Scanner;
+
+public class HelloWorld{
+
+   public static void main(String []args){
+
+       Scanner leia = new Scanner(System.in);
+
+       
+
+       float valor;
+
+       int formaPagamento;
+
+       
+
+       //leitura
+
+       System.out.print("Digite o valor do produto: R$");
+
+       valor = leia.nextFloat();
+
+       System.out.println("Escolha a forma de pagamento:");
+
+       System.out.println("1) À vista em dinheiro.");
+
+       System.out.println("2) À vista no cartão de debito.");
+
+       System.out.print("3) No cartão de crédito: ");
+
+       formaPagamento = leia.nextInt();
+
+       
+
+       //calculo e impressão
+
+       if(formaPagamento == 1) {
+
+            System.out.println("Valor total a ser pago: R$"+ (valor - valor * 0.15));
+
+       } else if(formaPagamento == 2) {
+
+            System.out.println("Valor total a ser pago: R$"+ (valor - valor * 0.10));
+
+       } else {
+
+            System.out.println("Valor total a ser pago: R$"+ valor);
+
+       }
+
+   }
+
+}
+
+questão 3 :
